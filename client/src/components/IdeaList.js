@@ -91,5 +91,4 @@ class IdeaList{
         this.addEventListeners();
     }
 }
-
 export default IdeaList;
