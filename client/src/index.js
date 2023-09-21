@@ -4,11 +4,11 @@ import IdeaForm from './components/IdeaForm';
 import IdeaList from './components/IdeaList';
 import "./css/style.css";
 
-new Modal();
+const modal = new Modal();
 const ideaForm = new IdeaForm();
 ideaForm.render();
 
-new IdeaList();
+const ideaList = new IdeaList();
 
 
 
